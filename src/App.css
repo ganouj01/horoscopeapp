@@ -2,9 +2,46 @@
   text-align: center;
 }
 
+.App h1{
+  color: #f5ee9e;
+  text-align: center;
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 24px;
+  color: #f5ee9e;
+  font-weight: bolder;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #fff;
+}
+
+.rendereddata {
+  margin: 0 90px;
+  text-align: left;
+  font-weight: bolder;
+  color: #f5ee9e;
+  font-size: 24px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.selectedsign {
+color: #070B34;
+}
+
+.selectedsign span{
+  color: #fff156;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +63,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media(max-width: 425px) {
+  .rendereddata {
+    margin: 0 20px;
+    font-weight: bolder;
+    color: #f5ee9e;
+    font-size: 20px;
+  }
 }
 
 @keyframes App-logo-spin {

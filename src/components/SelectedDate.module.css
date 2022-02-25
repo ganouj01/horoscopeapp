@@ -1,0 +1,24 @@
+
+.date{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.date button {
+    margin: 0 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #f5ee9e;
+    width: 141.34px;
+    height: 27px;
+    text-align: center;
+}
+
+.date button:hover {
+    color: #fff156;
+    border: 1px solid #fff156;
+    transition: all 0.2s ease-out;
+}
